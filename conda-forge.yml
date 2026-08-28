@@ -9,6 +9,9 @@ github:
   branch_name: main
   tooling_branch_name: main
 idle_timeout_minutes: 30
+provider:
+  win: azure
+  win_arm64: default
 remote_ci_setup:
   - conda-forge-ci-setup=4
   # https://github.com/conda/conda-build/issues/5613
